@@ -1,0 +1,10 @@
+element	frame_start	frame_end
+S	470	495
+Ca	747	772
+Mg	266	281
+Si	360	380
+Ti	910	936
+Al	310	330
+P	413	435
+Na	222	240
+K	674	694
