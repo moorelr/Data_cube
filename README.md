@@ -1,6 +1,6 @@
 # Data_cube
-Process EDS "data cubes" stored as .raw files
 
-User will need to install the "hexView" package for R
+Originally, this repository just contained an R script to process EDS "data cubes" stored as .raw files. To use this the user would need to install the "hexView" package for R.
+Also involved was the CSV file with X-ray energies, which was from https://xdb.lbl.gov/Section1/Table_1-2.pdf
 
-X-ray energies are from https://xdb.lbl.gov/Section1/Table_1-2.pdf
+Having learned that ImageJ is a much better tool for this, I added a couple ImageJ macros (labeled as .java files but they are actually whatever language ImageJ macros use). The "element_maps.java" macro requires the "xrays.txt" file (not to be confused with the "x rays.csv" file).
